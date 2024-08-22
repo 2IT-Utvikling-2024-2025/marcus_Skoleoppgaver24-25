@@ -1,0 +1,22 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    color: aliceblue;
+}
+div {
+    display: flex;
+    justify-content: center;
+    color:azure;
+    
+}
+body {
+    
+     background-color:dimgrey;
+     background: cover;
+    
+}
+.border {
+   color: aquamarine;
+}
+
