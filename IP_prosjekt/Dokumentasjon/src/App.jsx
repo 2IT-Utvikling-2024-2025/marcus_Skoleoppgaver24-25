@@ -10,10 +10,11 @@ function App() {
     <>
     <div className="Planleggning">
       <h1>Planleggning</h1>
-      <p>Navn på PC-en: 2ITA19. Navn på brukeren: marcus</p>
-      <p> Jeg skal patisjonere disken min i 60/160 60 av dem vil tilhøre windows</p>
-      <p>IP: 192.168.1.40 -59 og jeg brukte 192.168.1.57 </p>
-      <p>så skal jeg se rundt på hvordan andre jobber for å få en bedre forstårlese over windows.</p>
+      <p> PC-navn: 2ITA19</p>
+      <p>Brukernavn: Marcus</p>
+      <p>Jeg planlegger å partisjonere disken min i to deler: 60 GB til Windows og 160 GB til annen bruk.</p>
+      <p>IP-adresse: 192.168.1.40 - 59 (jeg har brukt 192.168.1.57).</p>
+      <p>Jeg vil også undersøke hvordan andre jobber med Windows for å få en bedre forståelse av operativsystemet.</p>
     </div>
         <div className='Starten'>
         <h1>Start Prosess</h1>
@@ -28,10 +29,11 @@ function App() {
         <p>jeg klarte det ikke helt på egen hånd.</p>
       </div>
       <div className='Forsetteslen'>
-        <h1>Forsetteslen</h1>
-        <p>Jeg var heldig å få hjelp av noen medelever som ga meg en bedre forståelse av Windows.</p>
-        <p> Etter mange forsøk kom Kevin med en minnepinne som hadde alt jeg trengte. Etter litt venting og hjelp fra Kevin, fikk jeg endelig installert Windows.</p>
-        <p> Nedlastingen tok tid, og jeg måtte svare på flere unødvendige spørsmål underveis. Da jeg endelig kom inn, var både jeg og Woonjong utålmodige, så vi gikk rett videre til neste oppgave.</p>
+        <h1>Installasjon av Windows</h1>
+        <p>For å installere Windows på en ny PC, begynner du med å slette den eksisterende installasjonen uten å logge inn. Trykk og hold Shift-tasten, klikk på Start, og velg Restart. I det blå reparasjonsvinduet, velg Troubleshoot, deretter Reset this PC, og velg Remove everything. Bekreft og la PC-en fullføre prosessen.</p>
+        <p>Lag et nytt installasjonsmedium ved å bruke Rufus. Last ned og åpne Rufus, sett inn en USB-minnepinne det bør minst være 8GB på den, velg Windows ISO-filen under "Boot selection", og klikk Start for å opprette en oppstartbar USB-minnepinne.
+          Sett USB-minnepinnen inn i den nye PC-en, start PC-en, og gå til BIOS/UEFI for å sette USB-enheten som første oppstartsenhet. Lagre endringene og start på nytt.</p>
+        <p> Når PC-en starter fra USB-en, følg installasjonsveiviseren: velg språk, tidssone, og tastaturoppsett, klikk på Install now, skriv inn produktnøkkel hvis nødvendig, og velg en ren installasjon. Velg disken for installasjonen og klikk Next.</p>
       </div>
       <div className='Ping Oppgaven'>
         <h1>Ping Oppgaven</h1>
