@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 2em;
+  font-family: Inter;
+  letter-spacing: 0.55px;
+  font-size: 16px;
+  line-height: 28px;
+  color: (151, 65, 252, 0.2);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
