@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './css/TodoForm.css';
 import { IoTrashBinSharp } from "react-icons/io5";
 import { MdEdit } from "react-icons/md";
-import { MdOutlineSaveAlt } from "react-icons/md";
+import { FaRegSave } from "react-icons/fa";
 import { FcCancel } from "react-icons/fc";
 
 
@@ -105,7 +105,7 @@ function TodoList() {
               onChange={(e) => setEditedTaskText(e.target.value)}
             />
             <div className="modal-buttons">
-              <button onClick={handleSaveEdit}><MdOutlineSaveAlt /></button>
+              <button onClick={handleSaveEdit}><FaRegSave /></button>
               <button onClick={handleCancelEdit}><FcCancel /></button>
             </div>
           </div>

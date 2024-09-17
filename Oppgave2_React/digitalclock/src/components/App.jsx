@@ -1,13 +1,12 @@
-import Todo  from './Todo';
-import TodoBoks from './Todoboks';
+import øving from './Oppgave1'
 import './css/App.css'
 
 function App() {
 
   return(
     <>
-      <Todo/>
       
+      <øving/>
 
     </>
   )
