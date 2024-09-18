@@ -1,4 +1,4 @@
-export default function(){
+export default function Oppgaver(){
 
     return(
         <input type="Oppgaver" />
