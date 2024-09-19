@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .survey-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .survey-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  
+
+  .survey-input, .survey-select, .survey-color {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  .survey-color {
+    height: 45px;
+    padding: 0;
+  }
+  
+  
+  .survey-button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .survey-button:hover {
+    background-color: #218838;
+  }
+  
+  .survey-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+.survey-textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100px; 
+    box-sizing: border-box;
+    resize: vertical; 
+  }
+  
+  .Klage .survey-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .survey-container {
+      padding: 20px;
+    }
+    
+    .survey-button {
+      font-size: 14px;
+    }
+  }
+  
