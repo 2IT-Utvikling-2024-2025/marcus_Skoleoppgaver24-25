@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 
 function Vær(){
     const[land,Setland] = useState()
@@ -46,4 +46,4 @@ function Vær(){
         </div>
     );
 } 
-export default Vær
+export default Vær*/

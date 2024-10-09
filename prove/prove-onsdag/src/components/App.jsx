@@ -1,12 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import Vær from './Prøve'
+import Spania from './ValutaSpania'
+import Usa from './usa'
+import Været from './været'
+
 
 function App() {
 
   return (
     <>
-      <vær/>
+      <Været/>
+      <Spania/>
+      <Usa/>
+      
+
     </>
   )
 }
