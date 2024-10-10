@@ -1,8 +1,8 @@
 import { useState } from "react"
 
 export default function Usa(){
-    const [nok, setNok] = useState(0)
-    const [usd, setUsd] = useState(0)
+    const [nok, setNok] = useState('0')
+    const [usd, setUsd] = useState('0')
 
     function handleInputChange()  {
         setUsd(nok * 10.76)

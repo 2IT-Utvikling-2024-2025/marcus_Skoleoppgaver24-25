@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 export default function Spania(){
-const [nok, setNok] = useState(0)
-const [eur, setEur] = useState(0)
+const [nok, setNok] = useState('0')
+const [eur, setEur] = useState('0')
 
 
 function handleInputChange()  {
